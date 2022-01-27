@@ -1,0 +1,27 @@
+Collection, 많은 데이터(elements)를 저장하고 관리한다.
+
+List *****
+[] 사용, mutable, indexing, slicing
+.append() 마지막 위치에 추가
+.insert() 특정위치를 지정하여 삽입
+del ~[] 특정위치 요소를 삭제
+pop() 마지막 데이터 삭제
+
+
+Tuple
+() 사용, immutable, indexing, slicing
+요소를 하나만 넣을 때는 (1, ) 처럼 쉼표 사용
+수정/삭제 불가능
+
+
+Dictionary ****
+{} 사용, mutable, key, value
+key값 사용하여 value값
+수정/삭제 가능
+
+
+Set
+{} 사용, mutable, 중복 미허용
+중복된 값이 제거됨
+순서가 없음(no order)
+인덱싱 불가능
